@@ -1,0 +1,35 @@
+
+ff: parsing domain file
+domain 'P2' defined
+ ... done.
+ff: parsing problem file
+problem 'EJERCICIO1-PROBLEMA1' defined
+ ... done.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is  best-first on 1*g(s) + 1*h(s) where
+    metric is  plan length
+
+advancing to distance:   33
+                         31
+                         30
+                         29
+                         28
+                         27
+                         26
+                         25
+                         24
+                         23
+                         22
+                         21
+                         20
+                         19
+                         18
+                         17
+                         16
+                         15
+                         14

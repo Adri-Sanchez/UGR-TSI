@@ -1,0 +1,123 @@
+
+ff: parsing domain file
+domain 'P2' defined
+ ... done.
+ff: parsing problem file
+problem 'EJERCICIO1-PROBLEMA1' defined
+ ... done.
+
+
+
+no optimization required. skipping criterion.
+
+
+no metric specified. plan length assumed.
+
+checking for cyclic := effects --- OK.
+
+ff: search configuration is EHC, if that fails then  best-first on 1*g(s) + 5*h(s) where
+    metric is  plan length
+
+Cueing down from goal distance:   28 into depth [1]
+                                  27            [1]
+                                  25            [1][2][3][4]
+                                  24            [1][2][3][4][5][6][7]
+                                  23            [1]
+                                  22            [1][2][3][4]
+                                  21            [1][2][3][4][5][6]
+                                  20            [1][2]
+                                  19            [1]
+                                  18            [1]
+                                  17            [1][2][3]
+                                  16            [1][2]
+                                  15            [1][2][3][4][5]
+                                  14            [1]
+                                  12            [1][2]
+                                  11            [1][2][3]
+                                  10            [1][2][3]
+                                   9            [1][2][3][4][5][6][7][8][9]
+                                   8            [1]
+                                   7            [1][2]
+                                   6            [1]
+                                   5            [1]
+                                   4            [1]
+                                   3            [1]
+                                   2            [1]
+                                   1            [1]
+                                   0            
+
+ff: found legal plan as follows
+
+step    0: IR BELKAN NORTE ZONA_30 ZONA_20
+        1: IR BELKAN NORTE ZONA_20 ZONA_10
+        2: IR BELKAN NORTE ZONA_10 ZONA_00
+        3: GIRA_DERECHA BELKAN NORTE ESTE
+        4: IR BELKAN ESTE ZONA_00 ZONA_01
+        5: GIRA_IZQUIERDA BELKAN ESTE NORTE
+        6: GIRA_IZQUIERDA BELKAN NORTE OESTE
+        7: COGER BELKAN MANZANA ZONA_01
+        8: IR BELKAN OESTE ZONA_01 ZONA_00
+        9: GIRA_DERECHA BELKAN OESTE NORTE
+       10: GIRA_DERECHA BELKAN NORTE ESTE
+       11: ENTREGAR BELKAN MANZANA ZONA_00 BRUJA
+       12: GIRA_DERECHA BELKAN ESTE SUR
+       13: IR BELKAN SUR ZONA_00 ZONA_10
+       14: IR BELKAN SUR ZONA_10 ZONA_20
+       15: GIRA_IZQUIERDA BELKAN SUR ESTE
+       16: GIRA_IZQUIERDA BELKAN ESTE NORTE
+       17: IR BELKAN NORTE ZONA_20 ZONA_10
+       18: COGER BELKAN ORO ZONA_10
+       19: IR BELKAN NORTE ZONA_10 ZONA_00
+       20: GIRA_DERECHA BELKAN NORTE ESTE
+       21: IR BELKAN ESTE ZONA_00 ZONA_01
+       22: GIRA_DERECHA BELKAN ESTE SUR
+       23: IR BELKAN SUR ZONA_01 ZONA_11
+       24: GIRA_IZQUIERDA BELKAN SUR ESTE
+       25: ENTREGAR BELKAN ORO ZONA_11 PRINCIPE
+       26: IR BELKAN ESTE ZONA_11 ZONA_12
+       27: IR BELKAN ESTE ZONA_12 ZONA_13
+       28: GIRA_IZQUIERDA BELKAN ESTE NORTE
+       29: IR BELKAN NORTE ZONA_13 ZONA_03
+       30: GIRA_IZQUIERDA BELKAN NORTE OESTE
+       31: COGER BELKAN ROSA ZONA_03
+       32: GIRA_IZQUIERDA BELKAN OESTE SUR
+       33: IR BELKAN SUR ZONA_03 ZONA_13
+       34: IR BELKAN SUR ZONA_13 ZONA_23
+       35: ENTREGAR BELKAN ROSA ZONA_23 PRINCESA
+       36: IR BELKAN SUR ZONA_23 ZONA_33
+       37: GIRA_DERECHA BELKAN SUR OESTE
+       38: IR BELKAN OESTE ZONA_33 ZONA_32
+       39: GIRA_DERECHA BELKAN OESTE NORTE
+       40: COGER BELKAN OSCAR ZONA_32
+       41: IR BELKAN NORTE ZONA_32 ZONA_22
+       42: IR BELKAN NORTE ZONA_22 ZONA_12
+       43: IR BELKAN NORTE ZONA_12 ZONA_02
+       44: GIRA_IZQUIERDA BELKAN NORTE OESTE
+       45: GIRA_IZQUIERDA BELKAN OESTE SUR
+       46: IR BELKAN SUR ZONA_02 ZONA_12
+       47: GIRA_DERECHA BELKAN SUR OESTE
+       48: IR BELKAN OESTE ZONA_12 ZONA_11
+       49: GIRA_IZQUIERDA BELKAN OESTE SUR
+       50: IR BELKAN SUR ZONA_11 ZONA_21
+       51: IR BELKAN SUR ZONA_21 ZONA_31
+       52: GIRA_DERECHA BELKAN SUR OESTE
+       53: GIRA_DERECHA BELKAN OESTE NORTE
+       54: ENTREGAR BELKAN OSCAR ZONA_31 LEONARDO
+       55: IR BELKAN NORTE ZONA_31 ZONA_21
+       56: GIRA_DERECHA BELKAN NORTE ESTE
+       57: IR BELKAN ESTE ZONA_21 ZONA_22
+       58: GIRA_IZQUIERDA BELKAN ESTE NORTE
+       59: COGER BELKAN ALGORITMO ZONA_22
+       60: IR BELKAN NORTE ZONA_22 ZONA_12
+       61: IR BELKAN NORTE ZONA_12 ZONA_02
+       62: ENTREGAR BELKAN ALGORITMO ZONA_02 PROFESOR
+     
+
+time spent:    0.00 seconds instantiating 289 easy, 0 hard action templates
+               0.00 seconds reachability analysis, yielding 116 facts and 214 actions
+               0.00 seconds creating final representation with 111 relevant facts, 1 relevant fluents
+               0.00 seconds computing LNF
+               0.00 seconds building connectivity graph
+               0.01 seconds searching, evaluating 451 states, to a max depth of 9
+               0.01 seconds total time
+
