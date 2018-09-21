@@ -4,11 +4,11 @@
 
 *Leer en otro idioma: [English](README.eng.md)*
 
-Prácticas de la asignatura *Técnicas de los Sistemas Inteligentes* con el uso de técnicas y métodos de Inteligencia Artificial y planificación clásicos.
+Prácticas de la asignatura *Técnicas de los Sistemas Inteligentes* usando técnicas y métodos de Inteligencia Artificial clásicos.
 
-**Práctica 1.- Planificación de caminos en robótica
-Práctica 2.- Planificación PDDL
-Práctica 3.- Planificación HTN (Hierarchial Task Networks)**
+**Práctica 1.-** Planificación de caminos en robótica  
+**Práctica 2.-** Planificación PDDL  
+**Práctica 3.-** Planificación HTN (Hierarchial Task Networks)
 
 ## Construido con
 
